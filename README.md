@@ -21,8 +21,8 @@ $ flask/bin/pip install flask    # Already installed, required for server
 $ flask/bin/pip install flask-login
 $ flask/bin/pip install flask-openid
 $ flask/bin/pip install flask-mail
-$ flask/bin/pip install flask-sqlalchemy
-$ flask/bin/pip install sqlalchemy-migrate
+$ flask/bin/pip install flask-sqlalchemy # ORM
+$ flask/bin/pip install sqlalchemy-migrate # scripting for DB setup & updates
 $ flask/bin/pip install flask-whooshalchemy
 $ flask/bin/pip install flask-wtf   # Needed for web forms
 $ flask/bin/pip install flask-babel
